@@ -83,10 +83,8 @@ body{
 @media (min-width: 1000px){
     body{
         background-color: hsl(var(--neutral-blue));
-        display: flex;
-        justify-content: center; 
-        align-items: center; 
-       
+        display: grid;
+        place-content: center; 
     }
     .container-summary{
         display: flex;
