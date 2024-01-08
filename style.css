@@ -83,6 +83,10 @@ body{
 @media (min-width: 1000px){
     body{
         background-color: hsl(var(--neutral-blue));
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+       
     }
     .container-summary{
         display: flex;
@@ -90,11 +94,6 @@ body{
         justify-content: flex-start;
         align-items: center;
         background-color: hsl(var(--neutral-white));
-        position: absolute; /* Posición absoluta para el elemento a centrar */
-        top: 50%; /* Posición desde la parte superior del contenedor */
-        left: 50%; /* Posición desde la izquierda del contenedor */
-        transform: translate(-50%, -50%); /* Desplaza el elemento para centrarlo exactamente */
-        box-shadow: 10px 20px 20px hsla(var(--neutral-lavender), .3);
         }
 
         
